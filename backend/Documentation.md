@@ -1,5 +1,5 @@
 
-# WaterWatch: Real-Time Water Quality Monitoring Platform
+# Real-Time Water Quality Monitoring Platform
 
 ## Milestone 1: Weeks 1–2 – Setup & Auth
 
@@ -52,3 +52,4 @@ Enables real-time water quality monitoring for communities and authorities, prov
 ---
 
 **Milestone 1 (Weeks 1 & 2) completed by Nayan Pawar**
+
