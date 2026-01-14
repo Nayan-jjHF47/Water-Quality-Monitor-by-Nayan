@@ -1,5 +1,6 @@
 fastapi
-sqlmodel
 uvicorn
+sqlmodel
+psycopg2-binary
 pyjwt
-mysql-connector-python
+
