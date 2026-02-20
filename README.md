@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Water Quality Monitor
 
 This project monitors water quality and provides a platform for users (citizens, NGOs, authorities, admins) to register, log in, and view water quality data on a map.
@@ -32,3 +33,6 @@ This project monitors water quality and provides a platform for users (citizens,
 ---
 
 This README will be updated as the project progresses.
+=======
+# Water-Quality-Monitor
+>>>>>>> 43cec8d819a4383eea1032e07ff876187cb80f8d
