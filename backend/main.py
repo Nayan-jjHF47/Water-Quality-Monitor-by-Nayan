@@ -1,24 +1,4 @@
-<<<<<<< HEAD
-﻿from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from backend.core.config import settings
-from backend.routers import api_router
 
-app = FastAPI(title="WaterWatch API")
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=settings.cors_origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-app.include_router(api_router)
-
-app.mount("/uploads", StaticFiles(directory=settings.uploads_dir), name="uploads")
-=======
 from fastapi import FastAPI, Depends, HTTPException
 from sqlmodel import SQLModel, Session, create_engine, select
 from models import User
@@ -109,4 +89,4 @@ def profile(token: str):
             }
     except jwt.PyJWTError:
         raise HTTPException(status_code=401, detail="Invalid token")
->>>>>>> 43cec8d819a4383eea1032e07ff876187cb80f8d
+
